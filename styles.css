@@ -263,6 +263,32 @@ margin-right: 60px;
   
 
 }
+.card-a-overview {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+      background-color: white;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .card-a-overview-left {
+        width: 60%;
+        padding: 5%;
+        margin-left: 10px;
+        padding: 0 20px 20px 20px;
+
+      }
+      .card-a-overview-right {
+        width: 40%;
+        padding: 5%;
+        margin-left: 10px;
+        padding: 0 20px 20px 20px;
+      }
+    
+
+
 .card-a-image {
     width:52%;
     border: none;

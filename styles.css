@@ -162,7 +162,7 @@ text-align: center;
 
 
 /* DEFINE BUTTON STYLE */
-button {
+.button-primary {
     border: none;
     background-color: #0B2C5A;
     color: #f2f2f2;

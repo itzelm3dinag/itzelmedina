@@ -71,6 +71,9 @@ a:hover {
 .margin-top-zero {
     margin-top: 0;
 }
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
 
 /* NEEEEEED TO ADDDDD */
 .hero-container_sub-copy {
@@ -275,24 +278,30 @@ margin-right: 60px;
 
     .card-a-overview-left {
         width: 60%;
-        padding: 5%;
-        margin-left: 10px;
-        padding: 0 20px 20px 20px;
+        /*padding: 5%;
+        margin-left: 10px;*/
+        padding: 5% 2.5% 5% 5%;
 
       }
       .card-a-overview-right {
         width: 40%;
-        padding: 5%;
-        margin-left: 10px;
-        padding: 0 20px 20px 20px;
+       /* padding: 5%;
+        margin-right: 10px;*/
+        padding: 5% 5% 5% 2.5%;
       }
-    
-
-
+      .card-a-overview-noshadow {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+          background-color: white;
+        }
+      
 .card-a-image {
-    width:52%;
-    border: none;
-    background-size: cover;
+    width:60%;
+   /* border: none;
+    background-size: cover;*/
 }
 .card-a-img img {
     height: 100%;
@@ -305,9 +314,13 @@ margin-right: 60px;
 .card-a-copy {
     width: 48%; 
     padding: 5%;
-    margin-left: 10px;
-    padding: 0 20px 20px 20px;
+   /* margin-left: 10px;
+    padding: 0 20px 20px 20px;*/
 }
+.card-no-image {
+    padding: 5%;
+}
+
 /* MEDIA QUERIES (Tell code how to resize */
 @media screen and (max-width: 768px) {
     nav {

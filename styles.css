@@ -32,6 +32,10 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
+.p-text{
+    font-size: 16px;
+    font-weight: 400;
+}
 
 a {
     font-size: 16px;
@@ -74,6 +78,12 @@ a:hover {
 .margin-bottom-zero {
     margin-bottom: 0;
 }
+.margin-left-ten {
+    margin-left: 50px;
+}
+.margin-left-twenty {
+    margin-left: 20px;
+}
 
 /* NEEEEEED TO ADDDDD */
 .hero-container_sub-copy {
@@ -83,6 +93,7 @@ a:hover {
 /*DEFINE NAVIGATION STYLE*/
 .flex{
     display:flex;
+    justify-content: center;
 }
 nav {
     background-color: #ffffff;
@@ -164,6 +175,24 @@ nav {
 .hero-cs-container_copy {
 text-align: center;
 }
+/*dot transition*/
+
+.dot-trail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .dot {
+    width: 3px;
+    height: 3px;
+    margin:0px 0px 20px 0px;
+    background: #0B2C5A;
+    border-radius: 50%;
+    opacity: 40%;
+  }
+  
 
 
 /* DEFINE BUTTON STYLE */
@@ -260,7 +289,7 @@ footer {
 .card-a {
 display: flex;
 align-items: center;
-margin-bottom: 60px;
+margin-bottom: 25px; /*change to 60 if not dots*/
 margin-left: 60px;
 margin-right: 60px;
   background-color: white;
@@ -271,7 +300,7 @@ margin-right: 60px;
 .card-a-overview {
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 25px; /*change to 60 if not dots*/
     margin-left: 60px;
     margin-right: 60px;
       background-color: white;
@@ -321,9 +350,20 @@ margin-right: 60px;
 }
 .card-no-image {
     padding: 5%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.before-after-image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    max-width: 40%;
 
+}
+.Before-After_Text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 /* MEDIA QUERIES (Tell code how to resize */
 @media screen and (max-width: 768px) {
     nav {

@@ -297,6 +297,9 @@ margin-right: 60px;
   
 
 }
+.alignimg{
+    max-width: 100%;
+}
 .card-a-overview {
     display: flex;
     justify-content: center;
@@ -330,12 +333,14 @@ margin-right: 60px;
         }
       
 .card-a-image {
-    width:60%;
+    width:50%;
+    height: auto;
+    margin: auto;
    /* border: none;
     background-size: cover;*/
 }
 .card-a-img img {
-    height: 100%;
+    max-width: 80%;
 }
 
 .card a:hover {
@@ -349,6 +354,7 @@ margin-right: 60px;
     padding: 0 20px 20px 20px;*/
 }
 .card-no-image {
+    
     padding: 5%;
 }
 .before-after-image{
@@ -417,7 +423,7 @@ margin-right: 60px;
     
     .card-no-image{
         display: flex;
-        max-width: 80%;
+        max-width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
     }

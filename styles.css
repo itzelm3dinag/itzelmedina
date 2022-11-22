@@ -461,6 +461,7 @@ width: 50%;
 
     .card{
         width: 80%;
+        max-width: 1293px;
     }
 
     .card img{

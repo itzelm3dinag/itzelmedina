@@ -339,6 +339,7 @@ margin-right: 60px;
 }
 .alignimg{
     max-width: 100%;
+    width: 450px;
 }
 .card-a-overview {
     display: flex;

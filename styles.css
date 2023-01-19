@@ -143,12 +143,13 @@ nav {
 }
 
 .hero-container_img {
-  width: 40%;
-  /*height:40px;*/
+  /*width: 40%;
+  height:40px;*/
   border: none;
   background-color: #f5c46d;
   background-size: cover;
   border-radius: 50%;
+  margin-left: 100px;
 }
   .hero-container_img img {
     max-width: 100%;
